@@ -6,7 +6,7 @@ class Grok < Formula
   sha256 "96482aa8140a8a47ce6751b91eb4cf47118252b875b014c8ef7de7519fd74daa"
   license "Apache-2.0"
 
-  depends_on macos: :arm64
+  depends_on arch: :arm64
 
   def install
     bin.install "grok"
