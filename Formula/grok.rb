@@ -3,7 +3,7 @@ class Grok < Formula
   homepage "https://github.com/carmilea/grok-build"
   version "1.0.38-s"
   url "https://github.com/carmilea/grok-build/releases/download/fork-1.0.38.1-rc1/grok-1.0.38-s-macos-arm64.tar.gz"
-  sha256 "PLACEHOLDER-UPDATED-BY-CI"
+  sha256 "96482aa8140a8a47ce6751b91eb4cf47118252b875b014c8ef7de7519fd74daa"
   license "Apache-2.0"
 
   depends_on macos: :arm64
