@@ -12,11 +12,13 @@ class Grok < Formula
     bin.install "grok"
   end
 
-  caveats <<~EOS
-    This is carmilea/grok-build, a privacy-hardened fork of xai-org/grok-build:
-    telemetry, product-event uploads, and startup phone-home requests are
-    hard-disabled. See https://github.com/carmilea/grok-build for details.
-  EOS
+  def caveats
+    <<~EOS
+      This is carmilea/grok-build, a privacy-hardened fork of xai-org/grok-build:
+      telemetry, product-event uploads, and startup phone-home requests are
+      hard-disabled. See https://github.com/carmilea/grok-build for details.
+    EOS
+  end
 
   test do
     system "#{bin}/grok", "--version"
