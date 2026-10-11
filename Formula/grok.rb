@@ -12,15 +12,15 @@ class Grok < Formula
     bin.install "grok"
   end
 
-  test do
-    assert_match version.to_s, shell_output("#{bin}/grok --version")
-  end
-
   def caveats
     <<~EOS
       This is carmilea/grok-build, a privacy-hardened fork of xai-org/grok-build:
       telemetry, product-event uploads, and startup phone-home requests are
       hard-disabled. See https://github.com/carmilea/grok-build for details.
     EOS
+  end
+
+  test do
+    assert_match version.to_s, shell_output("#{bin}/grok --version")
   end
 end
