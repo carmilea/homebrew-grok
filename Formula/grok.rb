@@ -4,8 +4,8 @@ class Grok < Formula
   url "https://github.com/carmilea/grok-build/releases/download/fork-1.0.45.2/grok-1.0.45-s-macos-arm64.tar.gz"
   version "1.0.45-s"
   sha256 "b7f1aa8a0e97e665612b891e9acf2131dac8d4834c8a2a13ffdf4e07ed0dacab"
-  revision 1
   license "Apache-2.0"
+  revision 1
 
   depends_on arch: :arm64
 
