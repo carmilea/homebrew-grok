@@ -1,8 +1,8 @@
 class Grok < Formula
   desc "Privacy-hardened fork of xai-org/grok-build"
   homepage "https://github.com/carmilea/grok-build"
-  version "1.0.45-s"
   url "https://github.com/carmilea/grok-build/releases/download/fork-1.0.45.1/grok-1.0.45-s-macos-arm64.tar.gz"
+  version "1.0.45-s"
   sha256 "457a95c1dcc79fd086fb27026ffbf3e2358f0b7ba2e010c812966a0008a35211"
   license "Apache-2.0"
 
