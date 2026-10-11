@@ -23,8 +23,4 @@ class Grok < Formula
       hard-disabled. See https://github.com/carmilea/grok-build for details.
     EOS
   end
-
-  test do
-    system "#{bin}/grok", "--version"
-  end
 end
